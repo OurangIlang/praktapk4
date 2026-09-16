@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="72dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buat Kartu Nama Anda"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="120dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/emaile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/nohp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor WhatsApp/HP"
+        android:inputType="phone"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/linkprto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL Portofolio"
+        android:inputType="textUri"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Lihat Kartu Nama" />
+
+</LinearLayout>
